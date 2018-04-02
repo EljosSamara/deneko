@@ -19,6 +19,8 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
 				<?php
+
+				echo 'test'
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
 				if ( has_nav_menu( 'social' ) ) : ?>

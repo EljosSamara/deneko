@@ -56,6 +56,11 @@ html {
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -1609,6 +1614,8 @@ body.has-header-image .site-description,
 body.has-header-video .site-description {
 	color: #fff;
 	opacity: 0.8;
+	font-style: italic;
+	font-family: cursive;
 }
 
 .custom-logo-link {

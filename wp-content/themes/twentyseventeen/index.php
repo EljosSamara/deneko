@@ -24,7 +24,7 @@ get_header(); ?>
 		</header>
 	<?php else : ?>
 	<header class="page-header">
-		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+	
 	</header>
 	<?php endif; ?>
 
@@ -32,6 +32,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php
+
 			if ( have_posts() ) :
 
 				/* Start the Loop */
@@ -61,7 +62,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<?php get_sidebar(); ?>
+	
 </div><!-- .wrap -->
 
 <?php get_footer();
